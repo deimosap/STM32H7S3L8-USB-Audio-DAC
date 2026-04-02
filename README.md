@@ -41,5 +41,7 @@ For more info on the pins of this board, and other common I2S DAC, [this page](h
 
 ## Summary
 A less performant board could have been chosen for this specific project. However, it was still used to get to grips with the then newer GPDMA controller, as well as the XSPI interface for using external memory on STM32 MCU.
+
 This project kept most of CubeMX's generated code as is, to only work on top of it. It is clear that for any future additions, some of it is less than convenient (e.g. endpoint descriptor has to change for multiple bitrates).
+
 Overall, this project was an introduction to producing an application on a MCU using STM32 HAL that also included familiarization with the USB protocol, I2S, using the SAI on STM32, using GPDMA and XSPI. Furthermore, it served as a first project where reading datasheets/ programmer manuals for an MCU/IC was required, useful in embeddded development.
