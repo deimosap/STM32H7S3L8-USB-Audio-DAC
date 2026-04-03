@@ -1,0 +1,17 @@
+# IDE related
+
+.settings/
+
+Appli/.settings/
+
+Appli/*.launch
+
+Boot/.settings/
+
+Boot/*.launch
+
+# Debug
+
+Appli/Debug/
+
+Boot/Debug/
